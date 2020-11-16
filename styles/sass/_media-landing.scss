@@ -1,0 +1,89 @@
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {
+header h1{
+    font-size: 65px;
+    letter-spacing: 10px;
+}
+} 
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+header h1{
+    font-size: 80px;
+}
+
+header p{
+    padding: 10px 0;
+    line-height: 45px;
+}
+
+// Game Start Button css
+.gameBtn{
+  padding: 50px 60px;    
+  font-size: 40px;
+}
+
+} 
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+// Game Start Button css
+.gameBtn{
+  padding: 40px 50px;    
+  font-size: 35px;
+}
+
+footer p{
+    font-size: 20px;
+    padding: 8px 0;
+}
+
+}
+
+@media only screen and (max-width: 450px) {
+header h1{
+    font-size: 50px;
+    line-height: 52px;
+    letter-spacing: 7px;
+}
+header h1::before,
+header h1::after{
+    width: 80px;  
+}
+
+// Game Start Button css
+.gameBtn{
+  padding: 30px 40px;    
+  font-size: 30px;
+}
+
+}
+
+
+@media only screen and (max-width: 310px) {
+header h1{
+    font-size: 30px;
+}
+header h1::before,
+header h1::after{
+    width: 55px;  
+}
+
+header p{
+    font-size: 18px;
+    line-height: 35px;
+}
+main{
+    height: 50vh;
+}
+// Game Start Button css
+.gameBtn{
+  padding: 20px 30px;    
+  font-size: 20px;
+}
+
+footer p{
+    font-size: 18px;
+    padding: 5px 0;
+}
+}

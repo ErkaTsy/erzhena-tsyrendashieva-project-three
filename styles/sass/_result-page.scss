@@ -1,0 +1,52 @@
+.result-box1,
+.result-box2,
+.result-box3,
+.result-box4{
+  height: 350px;
+  width: 70%;
+  margin: 100px auto; 
+  text-align: center;
+}
+.result-box1{
+  background-color: $primary;
+}
+
+.result-box2{
+  background-color: $secondary;
+}
+.result-box3{
+  background-color: $secondary-dark;
+}
+.result-box4{
+  background-color: $accent;
+}
+
+.math-box img{
+  margin: 20px auto;
+  width: 150px;
+}
+
+.input-box{
+  height: 200px;
+}
+.playmoreBtn{
+  background-color: $orange-yellow;
+  font-size: 40px;
+  padding: 20px;
+  font-family: 'Fredoka One', cursive;
+  width: 40%;
+  margin: 10px auto;
+  text-transform: uppercase;;
+  border: none;
+  border-radius: 10px;
+}
+
+.playmoreBtn:hover,
+.playmoreBtn:focus{
+  background-color:$secondary-light;  
+}
+
+.playmoreBtn:active{
+  background-color: $secondary-light;  
+}
+

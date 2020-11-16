@@ -1,0 +1,62 @@
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 900px) {
+.task{
+  font-size: 75px;
+  letter-spacing: 15px;
+}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 655px) {    
+.timer-box h2{
+  font-size: 25px;
+}
+.task-box{
+  margin-top: 60px;
+}
+.task{
+  font-size: 62px;
+  letter-spacing: 7px;
+}
+.userAnswer{
+  margin: 15px 0;
+  padding: 20px;
+  width: 80%;
+}
+// button to submit user's answer
+.answerBtn{
+  margin: 0 0 15px 0;
+  padding: 20px;
+  width: 80%;
+  text-align: center;
+  border: none;
+}
+
+.answerBtn:hover,
+.answerBtn:focus{
+  background-color: $secondary;  
+}
+.answerBtn:active{
+  background-color:$secondary;  
+}
+
+
+}
+
+@media only screen and (max-width: 450px) {
+.task-box{
+  margin-top: 50px;
+}
+.task{
+  font-size: 50px;
+  letter-spacing: 2px;
+}
+}
+
+@media only screen and (max-width: 330px) {
+
+.task{
+  font-size: 35px;
+  letter-spacing: 1px;
+}
+}

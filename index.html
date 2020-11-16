@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Lora:ital,wght@0,400;1,500&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/c0a35d1901.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="./styles/style.css">
+        <title>Math Genius</title>
+    </head>
+    <body>
+        <header >
+            <div class="wrapper">                  
+                <div class="header-box">
+                    <h1>Math Genius</h1>
+                    <p>Learn math multiplication wiht us.</p>
+                </div>
+            </div>
+        </header>
+        <main>
+            <section class="wrapper button-box">
+            <!-- buttons opens the game popup window -->
+                <button id="gameStartButton" class="gameBtn">Start game</button>
+            <!-- Game window content -->
+            <div id="gameWindow" class="game-content">
+                <div class="game-box">
+                    <span class="close">&times;</span>
+                    <div class="popup-container">
+                        <div class="math-box">
+                            <div id="timer" class="timer-box">
+                                <h2 id="time">00:00</h2>
+                            </div>
+                            <div id="multiplicationTask" class="task-box">
+                                <ul class="task"></ul>
+                            </div>                           
+
+                        </div>
+                        
+                        <div class="input-box">
+                           <form id='mainForm'>
+                                <label for="userInput" class="sr-only"></label>
+                                <input type="text" id="userInput"  placeholder="Your answer" class="userAnswer" onkeydown=""> 
+                                <button id="answBtn"  class="answerBtn" onclick="app.getUserAnswer()">Submit</button>
+                           </form>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>   
+            </section>
+        </main>
+        <footer>
+           <p><span>Copyright &copy; 2020 Erzhena Tsy</span></p>
+        </footer>
+        <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+        <script src="app.js"></script>
+    </body>
+</html>

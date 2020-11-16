@@ -1,0 +1,83 @@
+header{
+    background-color: $primary;
+    height: 60vh;
+    margin: 0 auto;
+}
+
+.header-box{
+    display: flex;
+    flex-direction: column;
+    text-align: center;    
+    justify-self: center;
+    height: 0vh;
+    padding-top: 100px;
+}
+
+header h1::before,
+header h1::after{    
+    display: inline-block;
+    width: 100px;   
+}
+header h1::before{
+    content: url(../../assets/think.svg);    
+    padding-right: 20px;  
+}
+header h1::after{
+    content: url(../../assets/ayurveda.svg); 
+    padding-left: 20px;  
+}
+
+header p{
+    padding: 40px;
+}
+
+main{
+    background-color: $secondary;
+    height: 60vh;
+}
+
+.button-box{
+    margin: 0 auto;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+// Game Start Button css
+.gameBtn{
+  margin-top: -35px;
+  padding: 70px 80px;  
+  border: none;
+  box-shadow: 0 8px #999;  
+  cursor: pointer;
+  background-color: $secondary-dark;  
+  font-family: 'Fredoka One', cursive;
+  font-size: 50px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.gameBtn:hover
+.gameBtn:focus{
+    background-color: $secondary-light;
+}
+
+.gameBtn:active{
+    background-color: $secondary-light;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+footer{
+    background-color: $grey;
+    height: auto;
+    text-align: center;
+}
+
+footer p{
+    font-size: 22px;
+    color: $secondary-dark;
+    padding: 10px 0;
+
+}
