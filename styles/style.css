@@ -341,12 +341,12 @@ header h1::after {
 }
 
 header h1::before {
-  content: url(../../assets/think.svg);
+  content: url(./../../assets/think.svg);
   padding-right: 20px;
 }
 
 header h1::after {
-  content: url(../../assets/ayurveda.svg);
+  content: url(https://github.com/ErkaTsy/erzhena-tsyrendashieva-project-three/blob/main/assets/ayurveda.svg);
   padding-left: 20px;
 }
 
@@ -399,7 +399,6 @@ main {
 }
 
 footer {
-  background-color: #4f4f4f;
   height: auto;
   text-align: center;
 }
@@ -611,7 +610,6 @@ footer p {
   background-color: #fb4d3d;
 }
 
-/* Extra large devices (large laptops and desktops, 1200px and up) */
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (max-width: 992px) {
   header h1 {
@@ -688,7 +686,6 @@ footer p {
   }
 }
 
-/* Extra large devices (large laptops and desktops, 1200px and up) */
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (max-width: 900px) {
   .task {
@@ -697,7 +694,6 @@ footer p {
   }
 }
 
-/* Medium devices (landscape tablets, 768px and up) */
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (max-width: 655px) {
   .timer-box h2 {
@@ -748,7 +744,6 @@ footer p {
   }
 }
 
-/* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (max-width: 1080px) {
   .playmoreBtn {
     width: 50%;
@@ -781,7 +776,6 @@ footer p {
   }
 }
 
-/* Medium devices (landscape tablets, 768px and up) */
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (max-width: 650px) {
   .playmoreBtn {
