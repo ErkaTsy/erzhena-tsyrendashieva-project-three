@@ -346,7 +346,7 @@ header h1::before {
 }
 
 header h1::after {
-  content: url(https://github.com/ErkaTsy/erzhena-tsyrendashieva-project-three/blob/main/assets/ayurveda.svg);
+  content: url("../assets/ayurveda.svg");
   padding-left: 20px;
 }
 
@@ -475,7 +475,7 @@ footer p {
 .math-box {
   width: 100%;
   height: 83%;
-  background-image: url(../../assets/math-monsters.jpg);
+  background-image: url("../assets/math-monsters.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
